@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    app:cardElevation="6dp"
+    android:background="@android:color/transparent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/black_shade">
+
+        <TextView
+            android:id="@+id/idTxtTime"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:text="timemm"/>
+
+
+
+        <ImageView
+            android:id="@+id/idImageCondition"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:padding="4dp"
+            android:src="@drawable/ic_launcher_background" />
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/idTxtTemperature"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            tool:text="20"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
